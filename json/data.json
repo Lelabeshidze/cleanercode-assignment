@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with Next.js",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 2,
+      "title": "Next.js vs React",
+      "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
+    },
+    {
+      "id": 3,
+      "title": "Server-Side Rendering with Next.js",
+      "content": "At vero eos et accusamus et iusto odio dignissimos ducimus."
+    }
+  ]
+}
