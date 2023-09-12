@@ -1,7 +1,8 @@
 import Link from "next/link";
 
 async function getPosts() {
-  const res = await fetch("http://localhost:4000/posts");
+  const host = "http://localhost:4000";
+  const res = await fetch(host + "/posts");
   return res.json();
 }
 

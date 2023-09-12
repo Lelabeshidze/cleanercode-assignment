@@ -1,8 +1,9 @@
-async function getPost(id:any) {
-  const res = await fetch("http://localhost:4000/posts/" + id);
+async function getPost(id: any) {
+  const host = "http://localhost:4000";
+  const res = await fetch(host + "/posts/" + id);
   return res.json();
 }
-export default async function PostDetails({ params }:any) {
+export default async function PostDetails({ params }: any) {
   const post = await getPost(params.id);
   return (
     <div
