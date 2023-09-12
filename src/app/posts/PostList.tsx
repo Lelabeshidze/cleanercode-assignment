@@ -2,7 +2,7 @@ import Link from "next/link";
 
 async function getPosts() {
   const host = "http://localhost:4000";
-  const res = await fetch(process.env.URL + "/posts");
+  const res = await fetch(process.env.NEXT_PUBLIC_URL + "/posts");
   return res.json();
 }
 

@@ -1,6 +1,6 @@
 async function getPost(id: any) {
   const host = "http://localhost:4000";
-  const res = await fetch(process.env.URL + "/posts/" + id);
+  const res = await fetch(process.env.NEXT_PUBLIC_URL + "/posts/" + id);
   return res.json();
 }
 export default async function PostDetails({ params }: any) {
