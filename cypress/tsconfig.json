@@ -1,0 +1,16 @@
+{
+  // Leave this section as is.
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "plugins": [],
+    "paths": {}
+  },
+  // Add this section.
+  "ts-node": {
+    "compilerOptions": {
+      "module": "ESNext",
+      "moduleResolution": "Node"
+    }
+  },
+}
