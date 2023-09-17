@@ -16,15 +16,15 @@ export default async function PostList() {
       <div className={`w-full flex space-x-4 my-8  justify-center`}>
         {posts.map((post: any) => (
           <>
-            <Link href={`/posts/${post.id}`}>
+            <Link href={`/posts/${post!.id}`}>
               <div
-                key={post.id}
+                key={post!.id}
                 className={`max-w-sm rounded overflow-hidden shadow-lg w-80 flex-1 py-10 bg-sky-600`}
               >
                 <h3
                   className={`text-gray-700 text-base text-sky-100 text-center`}
                 >
-                  {post.title}
+                  {post!.title}
                 </h3>
                 <p
                   className={`text-gray-700 text-base py-10 text-sky-100 text-center`}
