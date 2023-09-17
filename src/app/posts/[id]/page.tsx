@@ -28,10 +28,10 @@ export default function PostDetails({ params }: any) {
       className={`max-w-sm rounded overflow-hidden shadow-lg  my-8  py-10 bg-sky-600 mx-auto `}
     >
       <h1 className={`text-gray-700 text-base text-sky-100 text-center`}>
-        {data!.title}
+        {data["title"]}
       </h1>
       <p className={`text-gray-700 text-base py-10 text-sky-100 text-center`}>
-        {data!.content}
+        {data["content"]}
       </p>
     </div>
   );
